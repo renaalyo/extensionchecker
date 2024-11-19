@@ -17,6 +17,7 @@ C++ compiler (e.g. GCC)
 Boost Filesystem library
 
 Usage
+
 Compile the project using g++ or your preferred C++ compiler.
 Run the executable, providing the source directory, destination directory, and file extension as command-line arguments (e.g. ./file_mover /path/to/source /path/to/destination.exe).
 
@@ -25,7 +26,7 @@ The program will monitor the source directory for new files with the specified e
 Example Use Case
 Suppose you want to move all new .exe files from /path/to/source to /path/to/destination. You can run the program like this:
 
-./file_mover /path/to/source /path/to/destination.exe
+	./file_mover /path/to/source /path/to/destination.exe
 		
 The program will move any new .exe files from /path/to/source to /path/to/destination, renaming any files that would conflict with existing files in the destination directory.
 
